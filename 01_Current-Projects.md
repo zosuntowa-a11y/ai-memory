@@ -1,22 +1,23 @@
 # Current Projects
 
-現在進行中のテーマやプロジェクトをまとめる場所です。
-
-## Claude / ChatGPT / Codex Common Memory
+## AI 共通メモリ基盤（完了）
 
 ### Goal
+Claude / ChatGPT / Codex が同じ前提で動けるよう、共通メモリをクラウドで管理する。
 
-Claude、ChatGPT、Codex の会話内容を Obsidian に集約し、どの AI でも同じ前提を呼び出せるようにする。
+### Setup（完了済み）
+- GitHub リポジトリ: https://github.com/zosuntowa-a11y/ai-memory
+- ローカルパス: `/Users/satotowa/Documents/Codex/2026-05-11/claude-gpt-codex-claude-gpt-youtube/AI-Memory/`
+- Claude: `/Users/satotowa/CLAUDE.md` により自動読み込み
+- ChatGPT / Codex: `05_AI-Instructions.md` のプロンプトを会話開始時に貼り付ける
 
-### Current Setup
+### メモリ更新の手順
+1. ローカルのファイルを編集（Obsidian or テキストエディタ）
+2. 以下のコマンドでGitHubに反映：
+```
+cd "/Users/satotowa/Documents/Codex/2026-05-11/claude-gpt-codex-claude-gpt-youtube/AI-Memory" && git add . && git commit -m "update memory" && git push
+```
 
-- Obsidian を長期記憶の母艦にする。
-- Codex 作業フォルダには `AI_MEMORY.md` を置く。
-- AI との会話後、必要に応じて共有メモリ更新案を作ってもらう。
-
-### Next
-
-- Obsidian の Vault に `AI-Memory/` フォルダをコピーまたは同期する。
-- Claude / ChatGPT の開始時に `05_AI-Instructions.md` の内容を貼る。
-- 会話後の要約を `Logs/` に追加していく。
-
+### 未解決
+- ChatGPT の自動接続はまだ手動運用（Custom GPT化で解決可能）
+- GitHub トークンをチャットに貼ってしまったため要再発行
