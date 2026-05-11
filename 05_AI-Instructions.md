@@ -13,8 +13,7 @@
 ## 私の基本情報
 
 - Claude、ChatGPT、Codex を並行して使っている。
-- Obsidian を共通メモリとして使い、AI ごとの会話内容を他の AI でも呼び起こせるようにしたい。
-- YouTube・制作活動への AI 活用は今回の対象外。
+- GitHub（https://github.com/zosuntowa-a11y/ai-memory）を共通メモリとして使っている。
 
 ## 私の好み
 
@@ -31,32 +30,29 @@
 
 ## 決定済み事項（2026-05-11）
 
-- AI サービス内の記憶に頼りすぎず、Obsidian 側で共通メモリを管理する。
-- Obsidian を長期記憶、AI_MEMORY.md をプロジェクト単位の作業記憶として使う。
+- AI サービス内の記憶に頼りすぎず、GitHub 側で共通メモリを管理する。
 - 会話ログを丸ごと保存せず、次の会話に必要な要点だけを保存する。
-- 各 AI には、会話の終わりに「共通メモリ更新案」を作ってもらう。
+- 各 AI には、会話の終わりに「共通メモリ更新案」を出してもらう。
 
 ## 会話終了時のお願い
 
 必要に応じて、以下の形式で「共通メモリ更新案」を出してください：
 
 ### 追加する前提
-- 
+-
 
 ### 決定事項
-- 
+-
 
 ### 未解決事項
-- 
+-
 
 ### 次のアクション
-- 
+-
 ```
 
 ---
 
 ## Claude 用
 
-Claude Code は `/Users/satotowa/CLAUDE.md` の設定により、
-`/Users/satotowa/Documents/Codex/2026-05-11/claude-gpt-codex-claude-gpt-youtube/AI-Memory/` を自動で読み込みます。
-手動での貼り付けは不要です。
+`/Users/satotowa/CLAUDE.md` の設定により自動読み込み。手動での貼り付けは不要。
