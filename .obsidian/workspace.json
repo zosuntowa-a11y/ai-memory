@@ -183,6 +183,13 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "18c6b77678a011b1",
-  "lastOpenFiles": []
+  "active": "5c5bfd788a57d2b7",
+  "lastOpenFiles": [
+    "CODEX_INSTRUCTIONS.md",
+    "CLAUDE_PROJECT_INSTRUCTIONS.md",
+    "CLAUDE.md",
+    "CHATGPT_CUSTOM_INSTRUCTIONS.md",
+    "AI_MEMORY.md",
+    "START_HERE.md"
+  ]
 }
