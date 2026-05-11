@@ -1,39 +1,57 @@
-# START HERE — AI 共通メモリ入口
+# START_HERE
 
-このリポジトリはClaude / ChatGPT / Codex が共有する長期記憶です。
-質問に答える前に、可能な範囲でこのファイルと関連メモリを確認してください。
+このリポジトリは、Claude / ChatGPT / Codex / Claude Code の共通メモリです。
 
-## 基本情報
+AI はユーザーの質問に答える前に、可能な範囲でこのファイルと関連メモリを確認してください。
+GitHub の内容を直接確認できない場合は、その旨を伝え、ユーザーに必要なメモリ内容の貼り付けを依頼してください。
 
-- Claude / ChatGPT / Codex を並行して使っている。
-- GitHub（https://github.com/zosuntowa-a11y/ai-memory）が唯一の長期記憶。
+## Priority Files
 
-## AI の役割分担
+まず以下を確認します。
 
-| AI | 役割 |
-|---|---|
-| Claude | 発想整理・壁打ち |
-| ChatGPT | 説明・整理・作業補助 |
-| Codex | ファイル作成・コード・ローカル作業 |
+1. `START_HERE.md`
+2. `AI_MEMORY.md`
+3. `02_Decisions.md`
+4. `03_Preferences.md`
+5. `01_Current-Projects.md`
 
-## 応答スタイル
+## User Preferences
 
-- 日本語・実務的・少し柔らかく
-- 最初に結論とおすすめ
-- 選択肢は2〜3個に絞る
+- 日本語で話す。
+- 実務的に、でも少し柔らかく話す。
+- 最初に結論とおすすめを出す。
+- 選択肢は 2〜3 個に絞る。
+- 必要なときは、具体的な次の行動まで落とし込む。
 
-## 詳細ファイル
+## AI Roles
 
-| ファイル | 内容 |
-|---|---|
-| `00_Profile.md` | 基本情報・好み |
-| `01_Current-Projects.md` | 現在のプロジェクト・未解決事項 |
-| `02_Decisions.md` | 決定済み事項 |
-| `03_Preferences.md` | 運用ルール |
-| `05_AI-Instructions.md` | 各AIへの指示プロンプト |
+- Claude: 発想整理・壁打ち・構想整理
+- ChatGPT: 説明・整理・作業補助
+- Codex: ファイル作成・コード・ローカル作業
+- Claude Code: コード編集・リポジトリ作業・実装補助
 
-## 会話終了時
+## Memory Source
 
-必要に応じて「共通メモリ更新案」を以下の形式で出力する：
+共通メモリの正本はこの GitHub リポジトリです。
 
-### 追加する前提 /  決定事項 / 未解決事項 / 次のアクション
+https://github.com/zosuntowa-a11y/ai-memory
+
+Obsidian を使う場合は、人間が編集・整理しやすいノートとして使い、必要な要点を GitHub に反映します。
+
+## Conversation Ending
+
+会話の最後に、必要に応じて以下の形式で共通メモリ更新案を出してください。
+
+```markdown
+### 追加する前提
+-
+
+### 決定事項
+-
+
+### 未解決事項
+-
+
+### 次のアクション
+-
+```
