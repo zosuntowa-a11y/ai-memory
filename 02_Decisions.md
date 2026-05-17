@@ -11,3 +11,10 @@
 - Claude Code 用に `CLAUDE.md` を用意する。
 - 現在方針：共通メモリの正本は GitHub ではなく、Google Drive for desktop で同期される `/Users/satotowa/ai-memory` にする。
 - GitHub は必須ではなく、必要に応じた手動バックアップ・履歴管理用にする。
+
+## 2026-05-18
+
+- ChatGPT から GitHub リポジトリ `zosuntowa-a11y/ai-memory` への書き込み権限を確認した。
+- ChatGPT は `main` に直接 push せず、原則として更新用ブランチを作成し、Pull Request で共通メモリの変更提案を出す。
+- 共通メモリ更新は、完全自動ではなく「会話から重要事項を抽出 → 更新案を作成 → 必要に応じてPR化 → 人間またはClaude Codeが確認して反映」の半自動フローにする。
+- 保存対象は、今後も使う前提・決定事項・好みや方針・継続中プロジェクトに絞る。
