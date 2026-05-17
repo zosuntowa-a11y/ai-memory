@@ -1,9 +1,9 @@
 # START_HERE
 
-このリポジトリは、Claude / ChatGPT / Codex / Claude Code の共通メモリです。
+このフォルダは、Claude / ChatGPT / Codex / Claude Code の共通メモリです。
 
 AI はユーザーの質問に答える前に、可能な範囲でこのファイルと関連メモリを確認してください。
-GitHub の内容を直接確認できない場合は、その旨を伝え、ユーザーに必要なメモリ内容の貼り付けを依頼してください。
+このローカルフォルダを直接確認できない場合は、その旨を伝え、ユーザーに必要なメモリ内容の貼り付けを依頼してください。
 
 ## Priority Files
 
@@ -32,11 +32,17 @@ GitHub の内容を直接確認できない場合は、その旨を伝え、ユ�
 
 ## Memory Source
 
-共通メモリの正本はこの GitHub リポジトリです。
+共通メモリの正本は、Google Drive for desktop で同期される以下のローカルMarkdownフォルダです。
 
-https://github.com/zosuntowa-a11y/ai-memory
+`/Users/satotowa/ai-memory`
 
-Obsidian を使う場合は、人間が編集・整理しやすいノートとして使い、必要な要点を GitHub に反映します。
+実体は Google Drive の個人アカウント側にあります。
+
+`/Users/satotowa/Library/CloudStorage/GoogleDrive-zosun.towa@gmail.com/マイドライブ/ai-memory`
+
+GitHub `https://github.com/zosuntowa-a11y/ai-memory` は、必要に応じた手動バックアップ・履歴管理用です。
+
+Obsidian を使う場合は、この Google Drive 同期フォルダを開いて編集します。
 
 ## Conversation Ending
 
